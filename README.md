@@ -6,7 +6,7 @@ Este repositorio contiene un proyecto de análisis de datos enfocado en comprend
 El proyecto se centra en el análisis exploratorio de datos (EDA) de un conjunto de datos de clientes de telecomunicaciones. El informe final resume los pasos de limpieza de datos, los hallazgos clave del EDA y recomendaciones estratégicas para mitigar el churn.
 ## 📌 Objetivos
 El presente informe detalla el análisis realizado sobre la evasión de clientes (Churn) en una empresa de telecomunicaciones. El objetivo principal de este estudio es identificar los factores clave que contribuyen a que los clientes decidan cancelar sus servicios, con el fin de desarrollar e implementar estrategias de retención efectivas. La alta tasa de churn es un desafío significativo para cualquier empresa, ya que no solo implica una pérdida directa de ingresos, sino que también incrementa los costos asociados a la adquisición de nuevos clientes. A través de un enfoque basado en datos, buscamos comprender los patrones de comportamiento y las características de los clientes propensos a la evasión, lo que permitirá a la empresa tomar decisiones proactivas y fundamentadas para mejorar la lealtad de su base de usuarios.
-![TelecomX-Latam](https://github.com/user-attachments/assets/4ccc17c1-4c37-441a-b3f7-afb9d039c300)
+![TelecomX-Latam](https://github.com/marlevilla/challenger-telecom-x/blob/main/porcentajes_cancelacion.png)
 
 ## 🛠️ Instalación y Dependencias
 Para ejecutar el análisis y visualizar los resultados, necesitarás tener Python instalado en tu sistema. Se recomienda utilizar un entorno virtual para gestionar las dependencias del proyecto.
