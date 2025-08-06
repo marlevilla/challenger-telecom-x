@@ -2,26 +2,26 @@
 
 Este repositorio contiene un proyecto de análisis de datos enfocado en comprender y predecir la evasión de clientes (churn) en una empresa de telecomunicaciones. El objetivo es identificar los factores que contribuyen a que los clientes cancelen sus servicios y proponer estrategias de retención basadas en estos hallazgos.
 
-##📊 Contenido del Proyecto
+## 📊 Contenido del Proyecto
 El proyecto se centra en el análisis exploratorio de datos (EDA) de un conjunto de datos de clientes de telecomunicaciones. El informe final resume los pasos de limpieza de datos, los hallazgos clave del EDA y recomendaciones estratégicas para mitigar el churn.
 
-##🛠️ Instalación y Dependencias
+## 🛠️ Instalación y Dependencias
 Para ejecutar el análisis y visualizar los resultados, necesitarás tener Python instalado en tu sistema. Se recomienda utilizar un entorno virtual para gestionar las dependencias del proyecto.
 
-##Requisitos Previos
+## Requisitos Previos
 Python 3.x (se recomienda 3.8 o superior)
 
-##Pasos de Instalación
+## Pasos de Instalación
 Clonar el Repositorio (si el proyecto está en un repositorio Git):
 
 git clone <URL_DEL_REPOSITORIO>
 cd <NOMBRE_DEL_REPOSITORIO>
 
-##Crear un Entorno Virtual (opcional, pero recomendado):
+## Crear un Entorno Virtual (opcional, pero recomendado):
 
 python -m venv venv
 
-##Activar el Entorno Virtual:
+## Activar el Entorno Virtual:
 
 Windows:
 
@@ -31,7 +31,7 @@ macOS/Linux:
 
 source venv/bin/activate
 
-##Instalar Dependencias:
+## Instalar Dependencias:
 Las dependencias se encuentran listadas en el archivo requirements.txt. Si no tienes este archivo, puedes instalarlas manualmente:
 
 pip install pandas numpy matplotlib seaborn scikit-learn
@@ -40,10 +40,10 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 pip install -r requirements.txt
 
-##🚀 Cómo Ejecutar el Proyecto
+## 🚀 Cómo Ejecutar el Proyecto
 El análisis principal se realiza en un notebook de Jupyter.
 
-##Iniciar Jupyter Notebook:
+## Iniciar Jupyter Notebook:
 Asegúrate de que tu entorno virtual esté activado y ejecuta:
 
 jupyter notebook
@@ -54,13 +54,13 @@ En la interfaz de Jupyter que se abrirá en tu navegador, navega hasta el archiv
 Ejecutar las Celdas:
 Ejecuta todas las celdas del notebook en orden. Esto importará los datos, realizará la limpieza, el análisis exploratorio y generará el informe final.
 
-##📁 Estructura del Proyecto (Ejemplo)
+## 📁 Estructura del Proyecto (Ejemplo)
 .
 ├── TelecomX_LATAM.ipynb        # Cuaderno principal con el análisis y el informe
 ├── README.md                   # Este archivo
 └── requirements.txt            # (Opcional) Lista de dependencias del proyecto
 
-##⚠️ Posibles Problemas y Soluciones
+## ⚠️ Posibles Problemas y Soluciones
 Error de Módulo no Encontrado (ModuleNotFoundError):
 
 Problema: Indica que una de las bibliotecas necesarias no está instalada.
@@ -79,7 +79,7 @@ Problema: Pandas a veces emite advertencias cuando se modifica un DataFrame que 
 
 Solución: A menudo, estas advertencias pueden ignorarse si el resultado es el esperado, pero para evitarlas, puedes usar .copy() al crear sub-DataFrames o al realizar asignaciones encadenadas. Por ejemplo, df_final = df_original.copy().
 
-##Gráficos no Mostrados:
+## Gráficos no Mostrados:
 
 Problema: Si los gráficos no aparecen después de ejecutar las celdas, especialmente en un entorno que no sea Jupyter.
 
